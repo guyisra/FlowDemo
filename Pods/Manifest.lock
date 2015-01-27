@@ -1,0 +1,10 @@
+PODS:
+  - CHTCollectionViewWaterfallLayout (0.8)
+
+DEPENDENCIES:
+  - CHTCollectionViewWaterfallLayout
+
+SPEC CHECKSUMS:
+  CHTCollectionViewWaterfallLayout: 14b7950cbe45ae9297e7759148d69b022bac047d
+
+COCOAPODS: 0.35.0

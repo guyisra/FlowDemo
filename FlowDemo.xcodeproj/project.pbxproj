@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A372C5906B05C6C8A2702717 /* libPods-FlowDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 303164131797D9B6A163DC43 /* libPods-FlowDemo.a */; };
+		E46125451A766780002FD911 /* ItemCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46125441A766780002FD911 /* ItemCollectionViewController.m */; };
+		E46125481A766910002FD911 /* FlowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E46125471A766910002FD911 /* FlowCell.m */; };
+		E461254B1A766E35002FD911 /* FlowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E461254A1A766E35002FD911 /* FlowItem.m */; };
+		E461254E1A768FF6002FD911 /* SingleItemCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E461254D1A768FF6002FD911 /* SingleItemCollectionViewController.m */; };
+		E46125501A77A1BD002FD911 /* CellNib.xib in Resources */ = {isa = PBXBuildFile; fileRef = E461254F1A77A1BD002FD911 /* CellNib.xib */; };
+		E46A53121A76668400B27365 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E46A53111A76668400B27365 /* main.m */; };
+		E46A53151A76668400B27365 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E46A53141A76668400B27365 /* AppDelegate.m */; };
+		E46A53181A76668400B27365 /* FlowDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E46A53161A76668400B27365 /* FlowDemo.xcdatamodeld */; };
+		E46A531E1A76668400B27365 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E46A531C1A76668400B27365 /* Main.storyboard */; };
+		E46A53201A76668400B27365 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E46A531F1A76668400B27365 /* Images.xcassets */; };
+		E46A53231A76668400B27365 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E46A53211A76668400B27365 /* LaunchScreen.xib */; };
+		E46A532F1A76668400B27365 /* FlowDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E46A532E1A76668400B27365 /* FlowDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E46A53291A76668400B27365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E46A53041A76668400B27365 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E46A530B1A76668400B27365;
+			remoteInfo = FlowDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		303164131797D9B6A163DC43 /* libPods-FlowDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlowDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CDBE71F246D904AEF1C801D /* Pods-FlowDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlowDemo/Pods-FlowDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D8D2AEAF4FBCE43D6C74E676 /* Pods-FlowDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlowDemo/Pods-FlowDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E46125431A766780002FD911 /* ItemCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCollectionViewController.h; sourceTree = "<group>"; };
+		E46125441A766780002FD911 /* ItemCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCollectionViewController.m; sourceTree = "<group>"; };
+		E46125461A766910002FD911 /* FlowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowCell.h; sourceTree = "<group>"; };
+		E46125471A766910002FD911 /* FlowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowCell.m; sourceTree = "<group>"; };
+		E46125491A766E35002FD911 /* FlowItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowItem.h; sourceTree = "<group>"; };
+		E461254A1A766E35002FD911 /* FlowItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowItem.m; sourceTree = "<group>"; };
+		E461254C1A768FF6002FD911 /* SingleItemCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleItemCollectionViewController.h; sourceTree = "<group>"; };
+		E461254D1A768FF6002FD911 /* SingleItemCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleItemCollectionViewController.m; sourceTree = "<group>"; };
+		E461254F1A77A1BD002FD911 /* CellNib.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellNib.xib; sourceTree = "<group>"; };
+		E46A530C1A76668400B27365 /* FlowDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E46A53101A76668400B27365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E46A53111A76668400B27365 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E46A53131A76668400B27365 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E46A53141A76668400B27365 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E46A53171A76668400B27365 /* FlowDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlowDemo.xcdatamodel; sourceTree = "<group>"; };
+		E46A531D1A76668400B27365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E46A531F1A76668400B27365 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E46A53221A76668400B27365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E46A53281A76668400B27365 /* FlowDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E46A532D1A76668400B27365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E46A532E1A76668400B27365 /* FlowDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlowDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E46A53091A76668400B27365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A372C5906B05C6C8A2702717 /* libPods-FlowDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E46A53251A76668400B27365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BF01D543949B6065654A044 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				303164131797D9B6A163DC43 /* libPods-FlowDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76F56B3CA0CE4E29D72F2232 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8D2AEAF4FBCE43D6C74E676 /* Pods-FlowDemo.debug.xcconfig */,
+				8CDBE71F246D904AEF1C801D /* Pods-FlowDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E46A53031A76668400B27365 = {
+			isa = PBXGroup;
+			children = (
+				E46A530E1A76668400B27365 /* FlowDemo */,
+				E46A532B1A76668400B27365 /* FlowDemoTests */,
+				E46A530D1A76668400B27365 /* Products */,
+				76F56B3CA0CE4E29D72F2232 /* Pods */,
+				5BF01D543949B6065654A044 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E46A530D1A76668400B27365 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E46A530C1A76668400B27365 /* FlowDemo.app */,
+				E46A53281A76668400B27365 /* FlowDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E46A530E1A76668400B27365 /* FlowDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E46A53131A76668400B27365 /* AppDelegate.h */,
+				E46A53141A76668400B27365 /* AppDelegate.m */,
+				E46125431A766780002FD911 /* ItemCollectionViewController.h */,
+				E46125441A766780002FD911 /* ItemCollectionViewController.m */,
+				E46125491A766E35002FD911 /* FlowItem.h */,
+				E461254C1A768FF6002FD911 /* SingleItemCollectionViewController.h */,
+				E461254D1A768FF6002FD911 /* SingleItemCollectionViewController.m */,
+				E461254A1A766E35002FD911 /* FlowItem.m */,
+				E46125461A766910002FD911 /* FlowCell.h */,
+				E46125471A766910002FD911 /* FlowCell.m */,
+				E461254F1A77A1BD002FD911 /* CellNib.xib */,
+				E46A531C1A76668400B27365 /* Main.storyboard */,
+				E46A531F1A76668400B27365 /* Images.xcassets */,
+				E46A53211A76668400B27365 /* LaunchScreen.xib */,
+				E46A53161A76668400B27365 /* FlowDemo.xcdatamodeld */,
+				E46A530F1A76668400B27365 /* Supporting Files */,
+			);
+			path = FlowDemo;
+			sourceTree = "<group>";
+		};
+		E46A530F1A76668400B27365 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E46A53101A76668400B27365 /* Info.plist */,
+				E46A53111A76668400B27365 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E46A532B1A76668400B27365 /* FlowDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E46A532E1A76668400B27365 /* FlowDemoTests.m */,
+				E46A532C1A76668400B27365 /* Supporting Files */,
+			);
+			path = FlowDemoTests;
+			sourceTree = "<group>";
+		};
+		E46A532C1A76668400B27365 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E46A532D1A76668400B27365 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E46A530B1A76668400B27365 /* FlowDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E46A53321A76668400B27365 /* Build configuration list for PBXNativeTarget "FlowDemo" */;
+			buildPhases = (
+				32EC4F6CCCA3B9D19D19601E /* Check Pods Manifest.lock */,
+				E46A53081A76668400B27365 /* Sources */,
+				E46A53091A76668400B27365 /* Frameworks */,
+				E46A530A1A76668400B27365 /* Resources */,
+				B3503ABA65DCDA48B6656E75 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlowDemo;
+			productName = FlowDemo;
+			productReference = E46A530C1A76668400B27365 /* FlowDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E46A53271A76668400B27365 /* FlowDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E46A53351A76668400B27365 /* Build configuration list for PBXNativeTarget "FlowDemoTests" */;
+			buildPhases = (
+				E46A53241A76668400B27365 /* Sources */,
+				E46A53251A76668400B27365 /* Frameworks */,
+				E46A53261A76668400B27365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E46A532A1A76668400B27365 /* PBXTargetDependency */,
+			);
+			name = FlowDemoTests;
+			productName = FlowDemoTests;
+			productReference = E46A53281A76668400B27365 /* FlowDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E46A53041A76668400B27365 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Guy Israeli";
+				TargetAttributes = {
+					E46A530B1A76668400B27365 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					E46A53271A76668400B27365 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = E46A530B1A76668400B27365;
+					};
+				};
+			};
+			buildConfigurationList = E46A53071A76668400B27365 /* Build configuration list for PBXProject "FlowDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E46A53031A76668400B27365;
+			productRefGroup = E46A530D1A76668400B27365 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E46A530B1A76668400B27365 /* FlowDemo */,
+				E46A53271A76668400B27365 /* FlowDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E46A530A1A76668400B27365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E46A531E1A76668400B27365 /* Main.storyboard in Resources */,
+				E46125501A77A1BD002FD911 /* CellNib.xib in Resources */,
+				E46A53231A76668400B27365 /* LaunchScreen.xib in Resources */,
+				E46A53201A76668400B27365 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E46A53261A76668400B27365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32EC4F6CCCA3B9D19D19601E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B3503ABA65DCDA48B6656E75 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlowDemo/Pods-FlowDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E46A53081A76668400B27365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E46A53151A76668400B27365 /* AppDelegate.m in Sources */,
+				E461254B1A766E35002FD911 /* FlowItem.m in Sources */,
+				E46A53181A76668400B27365 /* FlowDemo.xcdatamodeld in Sources */,
+				E461254E1A768FF6002FD911 /* SingleItemCollectionViewController.m in Sources */,
+				E46A53121A76668400B27365 /* main.m in Sources */,
+				E46125451A766780002FD911 /* ItemCollectionViewController.m in Sources */,
+				E46125481A766910002FD911 /* FlowCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E46A53241A76668400B27365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E46A532F1A76668400B27365 /* FlowDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E46A532A1A76668400B27365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E46A530B1A76668400B27365 /* FlowDemo */;
+			targetProxy = E46A53291A76668400B27365 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E46A531C1A76668400B27365 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E46A531D1A76668400B27365 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E46A53211A76668400B27365 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E46A53221A76668400B27365 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E46A53301A76668400B27365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E46A53311A76668400B27365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E46A53331A76668400B27365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8D2AEAF4FBCE43D6C74E676 /* Pods-FlowDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlowDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E46A53341A76668400B27365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CDBE71F246D904AEF1C801D /* Pods-FlowDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlowDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E46A53361A76668400B27365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlowDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowDemo.app/FlowDemo";
+			};
+			name = Debug;
+		};
+		E46A53371A76668400B27365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlowDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowDemo.app/FlowDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E46A53071A76668400B27365 /* Build configuration list for PBXProject "FlowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E46A53301A76668400B27365 /* Debug */,
+				E46A53311A76668400B27365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E46A53321A76668400B27365 /* Build configuration list for PBXNativeTarget "FlowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E46A53331A76668400B27365 /* Debug */,
+				E46A53341A76668400B27365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E46A53351A76668400B27365 /* Build configuration list for PBXNativeTarget "FlowDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E46A53361A76668400B27365 /* Debug */,
+				E46A53371A76668400B27365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E46A53161A76668400B27365 /* FlowDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E46A53171A76668400B27365 /* FlowDemo.xcdatamodel */,
+			);
+			currentVersion = E46A53171A76668400B27365 /* FlowDemo.xcdatamodel */;
+			path = FlowDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E46A53041A76668400B27365 /* Project object */;
+}
